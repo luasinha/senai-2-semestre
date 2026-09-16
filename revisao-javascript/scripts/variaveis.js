@@ -10,13 +10,13 @@ function exemplosVariaveis() {
     const novoObjeto = {} // Object
     const hoje = new Date(); // Date
 
-    console.log("Typeof nome:", typeof nome);
-    console.log("Typeof idade:", typeof idade);
-    console.log("Typeof possuiFaculdade:", typeof possuiFaculdade);
-    console.log("Typeof time:", typeof time);
-    console.log("Typeof comida:", typeof comida);
-    console.log("Typeof novoObjeto:", typeof novoObjeto);
-    console.log("Typeof hoje:", typeof hoje);
+    console.log(" nome:", typeof nome);
+    console.log(" idade:", typeof idade);
+    console.log(" possuiFaculdade:", typeof possuiFaculdade);
+    console.log(" time:", typeof time);
+    console.log(" comida:", typeof comida);
+    console.log(" novo Objeto:", typeof novoObjeto);
+    console.log(" hoje:", typeof hoje);
 
     const gols = 1000;
     const frase = 'Pelé fez ' + gols + ' gols';
