@@ -1,7 +1,3 @@
-import numeros from "./variaveis";
-
-function exercicio19(){
-
 let listaNumeros = []
 
 for(let i = 0; i < numeros.length; i++){
@@ -17,6 +13,3 @@ for(let i = 0; i < numeros.length; i++){
 }
 
 console.log(listaNumeros)
-}
-
-export default exercicio19;

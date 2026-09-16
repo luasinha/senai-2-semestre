@@ -37,8 +37,6 @@ const usuarios = [
   },
 ];
 
-function exercicio18(){
-
 let listaString = []
 
 for(let i = 0; i < usuarios.length; i++){
@@ -46,7 +44,3 @@ for(let i = 0; i < usuarios.length; i++){
 }
 
 console.log(listaString)
-
-}
-
-export default exercicio18;
