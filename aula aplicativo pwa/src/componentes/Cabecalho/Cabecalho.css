@@ -1,7 +1,18 @@
 .Cabecalho_root {
     background-color: var(--cor-primaria);
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 8px;
+    padding: 0, 8px;
+}
+
+.patinha {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.Cabecalho_root h4 {
+    margin: 0;
 }

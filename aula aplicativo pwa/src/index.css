@@ -8,6 +8,7 @@ html,
 body,
 #root {
     height: 100%;
+    
 }
 
 #root {
@@ -17,23 +18,23 @@ body,
 }
 
 :root {
-    --cor-primaria-clara: #7986cb;
-    --cor-primaria: #3f50b5;
-    --cor-primaria-escura: #303f9f;
+    --cor-primaria-clara: lab(92.63% -40.12 -0.78);
+    --cor-primaria: hsl(172, 100%, 50%);
+    --cor-primaria-escura: hsl(177, 86%, 42%);
 
-    --cor-secundaria-clara: #ffab40;
-    --cor-secundaria: #ff9100;
-    --cor-secundaria-escura: #ff6d00;
+    --cor-secundaria-clara: hsl(355, 100%, 86%);
+    --cor-secundaria: hsl(335, 100%, 70%);
+    --cor-secundaria-escura: hsl(330, 63%, 44%);
 
-    --cor-fundo-padrao: #f7f7f7;
+    --cor-fundo-padrao: hsl(29, 100%, 90%);
 
     --cor-texto-padrao: #1c2025;
     --cor-texto-claro: #fff;
 
-    --cor-info: #0288d1;
-    --cor-sucesso: #1aa251;
-    --cor-aviso: #dea500;
-    --cor-erro: #eb0014;
+    --cor-info: lab(63.83% 23.85 -19.7);
+    --cor-sucesso: hwb(135 24% 45%);
+    --cor-aviso: hsl(350, 38%, 47%);
+    --cor-erro: hwb(354 12% 50%);
 
-    --cor-cinza: #99a7bb;
+    --cor-cinza: hsl(214, 3%, 55%);
 }
